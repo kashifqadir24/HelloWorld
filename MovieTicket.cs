@@ -7,7 +7,7 @@ namespace HelloWorld
 {
     class MovieTicket
     {
-        void Main()
+        public static void Main()
         {
             int userAge;
 

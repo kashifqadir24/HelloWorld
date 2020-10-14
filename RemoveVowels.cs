@@ -6,6 +6,7 @@ class RemoveVowels
 {
     static String RemVow(String str)
     {
+        // We can also use the following Regex.Replace function to replace all characters at once.
         // str = Regex.Replace(str, "[aeiouAEIOU]", "");
         str = str.Replace("a","").Replace("e","").Replace("i","").Replace("o","").Replace("u","").Replace("A", "").Replace("E", "").Replace("I", "").Replace("O", "").Replace("U", "");
         return str;
