@@ -6,7 +6,8 @@ class RemoveVowels
 {
     static String RemVow(String str)
     {
-        str = Regex.Replace(str, "[aeiouAEIOU]", "");
+        // str = Regex.Replace(str, "[aeiouAEIOU]", "");
+        str = str.Replace("a","").Replace("e","").Replace("i","").Replace("o","").Replace("u","").Replace("A", "").Replace("E", "").Replace("I", "").Replace("O", "").Replace("U", "");
         return str;
     }
 
